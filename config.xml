@@ -1,2 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="com.liuliu.polygongen" version="0.0.5" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>PolygonGen</name>
+    <description>
+        Generate beautiful polygon shapes.
+    </description>
+    <author email="liuliuweb@gmail.com" href="http://auxdesigner.github.io/">
+        Liu Liu
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
