@@ -1,0 +1,44 @@
+* {margin:0;padding:0; overflow: hidden;
+font-family: Roboto;}
+#controls {display:none;}
+body {text-align: center;}
+#randomise-colours {
+  width: 48px; height: 48px; border-radius: 50px; background: #4285f4;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 
+0 2px 5px 0 rgba(0,0,0,.23);
+  position: absolute; bottom: 32px; margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+}
+#download-btn {
+  width: 48px; height: 48px; border-radius: 50px; background: #FAFAFA;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 
+0 2px 5px 0 rgba(0,0,0,.23);
+  position: absolute; bottom: 100px; margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+}
+.actionbtns img {
+  margin-top: 12px; 
+}
+.loading {
+    width: 100%;
+  height: 100%;
+  display: block;
+  /* min-height: 50000px; */
+  background: #fff;
+  z-index: 99999;
+  position: absolute;
+}
+.loading div {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.toaster {padding:10px; background:#323232;  color: #fff; position:absolute; z-index: 12; width: 300px; text-align: center;  font-size: 16px; border-radius: 30px; 
+  margin-left: auto; margin-right: auto;
+height: 40px; line-height: 40px;
+left: 0; display: none;
+right: 0; bottom: 170px;}
